@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4270c7;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Proxima Nova Semibold;
+    font-weight: 600;
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: none;
+}
+  
+
+.logo-center1, .logo-center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo-center1 img, .logo-center2 img {
+    height: 158px;
+}
+
+
+.logo-center2 img {
+  width: 91px;
+}
+
+.card-h1 {
+  text-align: center;
+  font-family: 'ProximaNova',sans-serif;
+  color: #000000;
+  font-weight: 600;
+
+}
+
+  
+
+
+    

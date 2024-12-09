@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12pt;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
